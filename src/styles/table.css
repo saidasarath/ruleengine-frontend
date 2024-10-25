@@ -1,0 +1,145 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative; /* Required for absolute positioning */
+  }
+  
+  /* Header Styling */
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  /* Input Filter - Aligning on Top Right */
+  .text-end {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .text-end input {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    transition: box-shadow 0.2s;
+    width: 350px;
+  }
+  
+  .text-end input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    border-color: #007bff;
+  }
+  
+  /* DataTable Styles */
+  .rdt_Table {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 70px; /* Space below the search bar */
+  }
+  
+  .rdt_TableHead {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .rdt_TableCol {
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .rdt_TableBody {
+    background-color: #f9fafc;
+  }
+  
+  .rdt_TableRow {
+    transition: background-color 0.3s;
+  }
+  
+  .rdt_TableRow:hover {
+    background-color: #f1f3f5;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 8px 15px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .btn-primary:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Table Pagination */
+  .rdt_Pagination {
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .rdt_Pagination button {
+    background-color: #007bff;
+    border: none;
+    padding: 8px 15px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: background-color 0.2s;
+  }
+  
+  .rdt_Pagination button:hover {
+    background-color: #0056b3;
+  }
+  
+  .rdt_Pagination input {
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  .rdt_Pagination input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Table Title */
+  .rdt_TableHeader {
+    background-color: transparent;
+    color: #007bff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
